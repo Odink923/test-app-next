@@ -1,6 +1,5 @@
 import React from 'react';
 import OurVisionButton from "@/app/components/Buttons/OurVisionButton/OurVisionButton";
-import OurVisionReusable from "@/app/components/Buttons/OurVisionButton/OurVisionReusable";
 
 const OurVisionSection = () => {
     return (

@@ -9,6 +9,7 @@ const LeadSection = () => {
                 <div style={{marginTop: "481px"}}>
                     <div className="  uppercase flex flex-col text-7xl font-momentExtended pb-10">
                        <span>
+                           {/* eslint-disable-next-line react/no-unescaped-entities */}
                         The world's first
                            </span>
                         <span>
