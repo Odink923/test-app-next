@@ -10,6 +10,8 @@ const config: Config = {
 
 
     extend: {
+
+
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -18,15 +20,23 @@ const config: Config = {
       colors: {
         'blue-custom': '#3D8BFF',
         'purple-custom': '#AB23FF',
+        'grey-custom': '#13171D',
       },
       fontFamily:{
         momentExtended:  ['var(--font-momentExtended)'],
         satoshiBold: ['var(--font-satoshiBold)'],
+        satoshiRegular:['var(--font-satoshiRegular)'],
       },
       fontSize: {
         '22': '1.375rem',
         '68': '4.25rem',
+        '18': '1.125rem'
       },
+      spacing: {
+        'custom18': '4.5rem',
+      },
+
+
     },
 
 

@@ -23,7 +23,7 @@ const LeadSection = () => {
                      <span className="absolute inset-x-0 top-0 h-0.5 bg-gradient-to-r from-blue-custom to-purple-custom"></span>
                       <span
                         className="text-22 font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-custom to-purple-custom">Hold the Creon Pass NFT and earn passive income from AI Tools</span>
-                        <span className="absolute inset-x-0 bottom-0 h-0.5 bg-gradient-to-r from-blue-custom to-purple-custom"></span>
+                        <span className="absolute inset-x-0 bottom-0 h-0.5 bg-gradient-to-r from-blue-custom to-purple-custom  "></span>
                     </span>
                 </div>
 

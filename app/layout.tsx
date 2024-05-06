@@ -26,6 +26,15 @@ const satoshiBold = localFont({
   ],
   variable:"--font-satoshiBold"
 })
+const satoshiRegular = localFont({
+  src: [{
+    path: "../public/fonts/Satoshi-Regular.woff2",
+    weight:"200",
+  },
+
+  ],
+  variable:"--font-satoshiRegular"
+})
 
 export default function RootLayout({
   children,
@@ -34,7 +43,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${momentExtended.variable} ${satoshiBold.variable}`}>{children}</body>
+      <body className={`${momentExtended.variable} ${satoshiBold.variable} ${satoshiRegular.variable}`}>{children}</body>
     </html>
   );
 }
